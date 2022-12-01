@@ -1,0 +1,28 @@
+{
+  "name": "react-native-expo-localstorage",
+  "version": "1.0.0",
+  "description": "React Native Expo Localstorage, easy to use, just like Browser's Localstorage",
+  "main": "localStorage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anzeqar/react-native-expo-localstorage.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "local",
+    "storage",
+    "expo",
+    "synchronous",
+    "anzeqar"
+  ],
+  "author": "https://github.com/anzeqar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anzeqar/react-native-expo-localstorage/issues"
+  },
+  "homepage": "https://github.com/anzeqar/react-native-expo-localstorage#readme"
+}
