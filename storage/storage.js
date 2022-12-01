@@ -1,11 +1,6 @@
 const namespace = "appStore";
 initWithNamespace(namespace);
 
-/*
- TODO:
- - missing "key" support
- - missing "length" support
- */
 const storageService = {
   setItem,
   setToken,

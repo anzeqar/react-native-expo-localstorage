@@ -1,13 +1,55 @@
-export default storage;
-declare namespace storage {
-    export { set };
-    export { get };
-    export { getAll };
-    export { remove };
-    export { clearAll };
+export default storageService;
+declare namespace storageService {
+    export { setItem };
+    export { setToken };
+    export { getToken };
+    export { removeItem };
+    export { getItem };
+    export { store };
+    export { clear };
+    export { getAllItems };
 }
-declare function set(key: any, value: any): void;
-declare function get(key: any): any;
-declare function getAll(): {};
-declare function remove(key: any): void;
-declare function clearAll(): void;
+declare function setItem(key: any, value: any): {
+    setItem: typeof setItem;
+    setToken: typeof setToken;
+    getToken: typeof getToken;
+    removeItem: typeof removeItem;
+    getItem: typeof getItem;
+    store: typeof store;
+    clear: typeof clear;
+    getAllItems: typeof getAllItems;
+};
+declare function setToken(value: any): {
+    setItem: typeof setItem;
+    setToken: typeof setToken;
+    getToken: typeof getToken;
+    removeItem: typeof removeItem;
+    getItem: typeof getItem;
+    store: typeof store;
+    clear: typeof clear;
+    getAllItems: typeof getAllItems;
+};
+declare function getToken(value: any): any;
+declare function removeItem(key: any): {
+    setItem: typeof setItem;
+    setToken: typeof setToken;
+    getToken: typeof getToken;
+    removeItem: typeof removeItem;
+    getItem: typeof getItem;
+    store: typeof store;
+    clear: typeof clear;
+    getAllItems: typeof getAllItems;
+};
+declare function getItem(key: any): any;
+declare function store(): any;
+declare function clear(): {
+    setItem: typeof setItem;
+    setToken: typeof setToken;
+    getToken: typeof getToken;
+    removeItem: typeof removeItem;
+    getItem: typeof getItem;
+    store: typeof store;
+    clear: typeof clear;
+    getAllItems: typeof getAllItems;
+};
+declare function getAllItems(): any;
