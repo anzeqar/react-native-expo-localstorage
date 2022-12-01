@@ -1,8 +1,9 @@
 {
   "name": "react-native-expo-localstorage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native Expo Localstorage, easy to use, just like Browser's Localstorage",
   "main": "localStorage.js",
+  "types": "localStorage.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
