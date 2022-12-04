@@ -48,7 +48,7 @@
 
 ### 4. Get Value from LocalStorage
 
-    localStorage.getItem("lang")
+    localStorage.getItem(`lang`) // use ` ` character
     // javascript
 
 ### 5. Remove Value from Localstorage
